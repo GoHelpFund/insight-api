@@ -1,0 +1,52 @@
+{
+  "name": "@gohelpfund/insight-api",
+  "description": "A Help blockchain REST and WebSocket API Service",
+  "version": "2.0.1",
+  "repository": "git://github.com/gohelpfund/insight-api.git",
+  "contributors": [
+    {
+      "name": "Daniel Tirzuman",
+      "email": "daniel.tirzuman@gohelpfund.com"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/gohelpfund/insight-api/issues"
+  },
+  "homepage": "https://github.com/gohelpfund/insight-api",
+  "license": "MIT",
+  "keywords": [
+    "insight",
+    "insight api",
+    "blockchain",
+    "help api",
+    "aden api",
+    "blockchain api",
+    "json",
+    "bitcore-help",
+    "helpcore"
+  ],
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test mocha -R spec --recursive"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "async": "^2.6.1",
+    "@gohelpfund/helpcore-lib": "^0.16.8",
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.3",
+    "lodash": "^4.17.11",
+    "lru-cache": "^5.1.1",
+    "morgan": "^1.9.1",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "proxyquire": "^1.8.0",
+    "should": "^13.2.3",
+    "sinon": "^7.1.1"
+  }
+}
