@@ -1,7 +1,7 @@
 {
   "name": "@gohelpfund/insight-api",
   "description": "A Help blockchain REST and WebSocket API Service",
-  "version": "2.9.7",
+  "version": "2.9.8",
   "repository": "git://github.com/gohelpfund/insight-api.git",
   "contributors": [
     {
